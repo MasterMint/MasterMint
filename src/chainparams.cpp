@@ -11,6 +11,9 @@
 
 #include <boost/assign/list_of.hpp>
 
+#include <iostream>
+#include <fstream>
+
 using namespace boost::assign;
 
 struct SeedSpec6 {
@@ -73,13 +76,13 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1447416000;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 0;	
+        genesis.nNonce   = 186595;	
 
         hashGenesisBlock = genesis.GetPoWHash();	
-        assert(hashGenesisBlock == uint256(""));
-        assert(genesis.hashMerkleRoot == uint256(""));
+			
+        assert(hashGenesisBlock == uint256("0x00000eccd32786dbeee375c28ed71d9322bce484749d8488be2dbca92e7321db"));
+        assert(genesis.hashMerkleRoot == uint256("0xae59c5a826122ef6953e91734c80379f99b58b96d97fe659687a40c6e6f0bce2"));
       
-        
         base58Prefixes[PUBKEY_ADDRESS] = list_of(50);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(30);
         base58Prefixes[SECRET_KEY] =     list_of(153);

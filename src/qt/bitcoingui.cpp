@@ -280,7 +280,7 @@ void BitcoinGUI::createActions()
     addressBookAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
     tabGroup->addAction(addressBookAction);
 
-    masternodeManagerAction = new QAction(QIcon(":/icons/bitcoin"), tr("&MasterMint Masternodes"), this);
+    masternodeManagerAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Masternodes"), this);
     masternodeManagerAction->setToolTip(tr("Show MasterMint Masternode Nodes status and configure your nodes."));
     masternodeManagerAction->setCheckable(true);
     tabGroup->addAction(masternodeManagerAction);
