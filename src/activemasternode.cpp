@@ -8,7 +8,7 @@
 #include "clientversion.h"
 
 //
-// Bootup the masternode, look for a 10 000 MM input and register on the network
+// Bootup the masternode, look for a 1000000 MM input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
