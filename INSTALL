@@ -1,0 +1,9 @@
+Building WOC2
+
+See doc/readme-qt.rst for instructions on building WOC2 QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of WOC2.
+
+See doc/build-*.txt for instructions on building warofcoins2d,
+the intended-for-services, no-graphical-interface, reference
+implementation of WOC2.
